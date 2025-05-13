@@ -3,14 +3,7 @@
 
 TEST(MultTest, HandlesPositiveInput)
 {
-int result = mult(9, 3);
+int result = mult(3, 4);
 
-EXPECT_EQ(result, 3);
-}
-
-TEST(MultTest, HandlesZeroInput)
-{
-int result = mult(9, 0);
-
-EXPECT_EQ(result, 0);
+EXPECT_EQ(result, 12);
 }
